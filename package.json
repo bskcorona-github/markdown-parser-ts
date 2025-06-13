@@ -1,0 +1,27 @@
+{
+  "name": "markdown-parser-ts",
+  "version": "1.0.0",
+  "description": "A basic markdown parser in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "parse": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "markdown",
+    "parser",
+    "html",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
